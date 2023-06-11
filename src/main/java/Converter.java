@@ -1,3 +1,5 @@
+package main.java;
+
 public class Converter {
     public static boolean isMathOperation(char op) {
         return op == '+' || op == '-' || op == '*' || op == '/';

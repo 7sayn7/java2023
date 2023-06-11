@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+import main.java.Converter;
 public class CalculatorTestDrive {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -19,14 +19,14 @@ public class CalculatorTestDrive {
         String b = stringArray[2];
         char op = stringArray[1].charAt(0);
 
-        if (!(Converter.isNumber(a) && Converter.isNumber(b) && Converter.isMathOperation(op))) {
+        if (!(main.java.Converter.isNumber(a) && main.java.Converter.isNumber(b) && Converter.isMathOperation(op))) {
             throw new IllegalArgumentException("Не математическое выражение");
         }
 
         if (Converter.isRomanNumber(a) && Converter.isRomanNumber(b)) {
             int arabicA = Converter.convertRomanToArabic(a);
             int arabicB = Converter.convertRomanToArabic(b);
-            int result = Calculator.calculate(arabicA, arabicB, op);
+            int result = main.java.Calculator.calculate(arabicA, arabicB, op);
             if (result < 0) {
                 throw new IllegalArgumentException("В римской системе нет отрицательных чисел");
             }
@@ -35,7 +35,7 @@ public class CalculatorTestDrive {
             // "7" -> int a = 7;
             int a1 = Integer.parseInt(a);
             int b1 = Integer.parseInt(b);
-            int result = Calculator.calculate(a1, b1, op);
+            int result = main.java.Calculator.calculate(a1, b1, op);
             System.out.println(a1 + " " + op + " " + b1 + " = " + result);
         } else {
             throw new IllegalArgumentException("Используются одновременно разные системы счисления");
