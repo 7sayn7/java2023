@@ -11,8 +11,8 @@ public class sin {
         System.out.println("-----------------------");
 
         for (int angle = 0; angle <= 45; angle += 5) {
-            double radians = Math.toRadians(angle);
-            double sinValue = Math.sin(radians);
+            double radians = java.lang.Math.toRadians(angle);
+            double sinValue = java.lang.Math.sin(radians);
 
             System.out.printf("%d\t\t%.4f\n", angle, sinValue);
         }

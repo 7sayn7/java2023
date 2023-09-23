@@ -4,10 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="add02bfe-1034-4a24-8cb9-729c7cbfb1d9" name="Changes" comment="final">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="add02bfe-1034-4a24-8cb9-729c7cbfb1d9" name="Changes" comment="homework2_1 done">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_82.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_10_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_10_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork2_2/education/Mark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork2_2/education/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork2_2/education/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MarkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TaskTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CalculatorProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CalculatorProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeWork1/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWork1/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeWork2/sin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWork2/sin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CalculatorTestDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CalculatorTestDrive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ConverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ConverterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CalculatorTestDrive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CalculatorTestDrive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Converter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CalculatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ConverterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ConverterTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,10 +48,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -35,7 +71,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2Qc4jg9KDiNNlgbIrruOLyAgCl4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -45,6 +83,8 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
     &quot;last_opened_file_path&quot;: &quot;F:/projects/CalculatorProject&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
@@ -56,18 +96,73 @@
       <recent name="F:\projects\CalculatorProject" />
       <recent name="F:\projects\CalculatorProject\src" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="education" />
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration name="CalculatorTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CalculatorTestDrive" />
+  <component name="RunManager" selected="JUnit.MarkTest.testGetGradesForDate">
+    <configuration name="MarkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CalculatorProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MarkTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarkTest.testGetGradesForDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CalculatorProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MarkTest" />
+      <option name="METHOD_NAME" value="testGetGradesForDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CalculatorProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StudentTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CalculatorProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TaskTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CalculatorProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StudentTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CalculatorTestDrive" />
+        <item itemvalue="JUnit.MarkTest.testGetGradesForDate" />
+        <item itemvalue="JUnit.MarkTest" />
+        <item itemvalue="JUnit.StudentTest" />
+        <item itemvalue="JUnit.TaskTest" />
+        <item itemvalue="TestNG.StudentTest" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +238,35 @@
       <option name="project" value="LOCAL" />
       <updated>1686501649824</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="final">
+      <created>1696426718577</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1696426718577</updated>
+    </task>
+    <task id="LOCAL-00011" summary="homework1 done">
+      <created>1695311364966</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695311364966</updated>
+    </task>
+    <task id="LOCAL-00012" summary="homework2 done">
+      <created>1695312026162</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1695312026162</updated>
+    </task>
+    <task id="LOCAL-00013" summary="homework2_1 done">
+      <created>1695313432160</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1695313432160</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -155,6 +278,9 @@
     <MESSAGE value="add run" />
     <MESSAGE value="add javadoc" />
     <MESSAGE value="final" />
-    <option name="LAST_COMMIT_MESSAGE" value="final" />
+    <MESSAGE value="homework1 done" />
+    <MESSAGE value="homework2 done" />
+    <MESSAGE value="homework2_1 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework2_1 done" />
   </component>
 </project>

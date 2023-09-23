@@ -26,7 +26,7 @@ public class CalculatorTestDrive {
         if (Converter.isRomanNumber(a) && Converter.isRomanNumber(b)) {
             int arabicA = Converter.convertRomanToArabic(a);
             int arabicB = Converter.convertRomanToArabic(b);
-            int result = main.java.Calculator.calculate(arabicA, arabicB, op);
+            int result = Calculator.calculate(arabicA, arabicB, op);
             if (result < 0) {
                 throw new IllegalArgumentException("В римской системе нет отрицательных чисел");
             }
@@ -35,7 +35,7 @@ public class CalculatorTestDrive {
             // "7" -> int a = 7;
             int a1 = Integer.parseInt(a);
             int b1 = Integer.parseInt(b);
-            int result = main.java.Calculator.calculate(a1, b1, op);
+            int result = Calculator.calculate(a1, b1, op);
             System.out.println(a1 + " " + op + " " + b1 + " = " + result);
         } else {
             throw new IllegalArgumentException("Используются одновременно разные системы счисления");

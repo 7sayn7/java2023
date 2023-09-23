@@ -1,12 +1,13 @@
-package test.java;
+
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import main.java.Converter;
 
 public class ConverterTest {
     @Test
     public void testConvertRomanToArabic() {
-        int result = Converter.convertRomanToArabic("IV");
+        int result = main.java.Converter.convertRomanToArabic("IV");
         Assertions.assertEquals(4, result);
     }
 
