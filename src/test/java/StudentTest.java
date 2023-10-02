@@ -4,33 +4,34 @@ import education.Student;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class StudentTest {
     @Test
     public void testGetStudentInGroup() {
         ArrayList<Student> students = new ArrayList<>();
-        students.add(new Student.Builder()
-                .setName("Alice")
-                .setGroupName("GroupA")
-                .setAge(20)
+        students.add(Student.builder()
+                .name("Alice")
+                .groupName("GroupA")
+                .age(20)
                 .build());
-        students.add(new Student.Builder()
-                .setName("Bob")
-                .setGroupName("GroupB")
-                .setAge(21)
+        students.add(Student.builder()
+                .name("Bob")
+                .groupName("GroupB")
+                .age(21)
                 .build());
-        students.add(new Student.Builder()
-                .setName("Charlie")
-                .setGroupName("GroupA")
-                .setAge(19)
+        students.add(Student.builder()
+                .name("Charlie")
+                .groupName("GroupA")
+                .age(19)
                 .build());
-        students.add(new Student.Builder()
-                .setName("David")
-                .setGroupName("GroupC")
-                .setAge(22)
+        students.add(Student.builder()
+                .name("David")
+                .groupName("GroupC")
+                .age(22)
                 .build());
 
-        ArrayList<Student> studentsInGroupA = new Student().getStudentInGroup(students, "GroupA");
+        List<Student> studentsInGroupA = Student.getStudentInGroup(students, "GroupA");
 
         assertEquals(2, studentsInGroupA.size());
         assertEquals("Alice", studentsInGroupA.get(0).getName());

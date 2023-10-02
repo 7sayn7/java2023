@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="add02bfe-1034-4a24-8cb9-729c7cbfb1d9" name="Changes" comment="homework2_2 done">
+    <list default="true" id="add02bfe-1034-4a24-8cb9-729c7cbfb1d9" name="Changes" comment="homework3_1, 3_2 done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalculatorProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CalculatorProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeWork2_2/education/Mark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWork2_2/education/Mark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/homeWork2_2/education/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWork2_2/education/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeWork2_2/education/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWork2_2/education/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MarkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MarkTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StudentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TaskTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,20 +49,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/projects/CalculatorProject&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "last_opened_file_path": "F:/projects/CalculatorProject",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\projects\CalculatorProject" />
@@ -249,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695489529260</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="homework3_1, 3_2 done">
+      <created>1696256932813</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1696256932813</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -265,6 +269,7 @@
     <MESSAGE value="homework2 done" />
     <MESSAGE value="homework2_1 done" />
     <MESSAGE value="homework2_2 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework2_2 done" />
+    <MESSAGE value="homework3_1, 3_2 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework3_1, 3_2 done" />
   </component>
 </project>
