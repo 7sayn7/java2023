@@ -10,10 +10,10 @@ public class MarkTest {
     @Test
     public void testGetGradesForDate() {
         ArrayList<Mark> marks = new ArrayList<>();
-        marks.add(new Mark(90, "Good", LocalDate.of(2023, 1, 15)));
-        marks.add(new Mark(85, "Excellent", LocalDate.of(2023, 1, 15)));
-        marks.add(new Mark(75, "Satisfactory", LocalDate.of(2023, 2, 20)));
-        marks.add(new Mark(95, "Outstanding", LocalDate.of(2023, 2, 20)));
+        marks.add(Mark.createMark(90, "Good", LocalDate.of(2023, 1, 15)));
+        marks.add(Mark.createMark(85, "Excellent", LocalDate.of(2023, 1, 15)));
+        marks.add(Mark.createMark(75, "Satisfactory", LocalDate.of(2023, 2, 20)));
+        marks.add(Mark.createMark(95, "Outstanding", LocalDate.of(2023, 2, 20)));
 
         ArrayList<Mark> gradesForDate = Mark.getGradesForDate(marks, LocalDate.of(2023, 1, 15));
 

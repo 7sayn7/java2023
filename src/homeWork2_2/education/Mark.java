@@ -4,7 +4,11 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 
 public class Mark {
-    public Mark(int grade, String feedBack, LocalDate date) {
+    private int grade;
+    private String feedBack;
+    private LocalDate date;
+
+    private Mark(int grade, String feedBack, LocalDate date) {
         this.grade = grade;
         this.feedBack = feedBack;
         this.date = date;
@@ -14,6 +18,9 @@ public class Mark {
 
     }
 
+    public static Mark createMark(int grade, String feedBack, LocalDate date) {
+        return new Mark(grade, feedBack, date);
+    }
 
     public int getGrade() {
         return grade;
@@ -39,9 +46,6 @@ public class Mark {
         this.date = date;
     }
 
-    private int grade;
-    private String feedBack;
-    private LocalDate date;
 
     public static ArrayList<Mark> getGradesForDate(ArrayList<Mark> marks, LocalDate date) {
         ArrayList<Mark> gradesForDate = new ArrayList<>();
