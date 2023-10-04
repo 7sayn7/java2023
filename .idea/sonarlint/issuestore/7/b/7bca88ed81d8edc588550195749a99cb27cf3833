@@ -1,5 +1,3 @@
 
 …
-java:S13191"hThe type of "students" should be an interface such as "List" rather than the implementation "ArrayList".(ζªία8ψ‚Ί†―1
-S
-java:S1144"1Remove this unused private "Student" constructor.(°Βϋ£ώÿÿÿÿ8Α¶†―1
+java:S1319"hThe type of "students" should be an interface such as "List" rather than the implementation "ArrayList".(Ώ……8ψ‚Ί†―1
